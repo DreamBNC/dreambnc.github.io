@@ -42,9 +42,13 @@ body {
    background: linear-gradient(to right, #446688, #335566, #446688);
    color: #aaddff;
 }
-#twitter {
-   background: linear-gradient(to right, #446688, #335566, #446688);
-   color: #aaddff;
+#twitter a {
+   color: #cce8ff;
+   text-decoration: none;
+}
+#twitter a:hover {
+   color: #cce8ff;
+   text-decoration: underline;
 }
 .content {
    text-align: left;
