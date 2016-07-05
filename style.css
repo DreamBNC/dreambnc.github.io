@@ -68,9 +68,8 @@ body {
    color: #ffffcc;
    text-decoration: underline;
 }
-li a {
-    display: block;
-    width: 60px;
+li {
+    display: inline;
 }
 ul {
     list-style-type: none;
