@@ -80,3 +80,6 @@ body {
    color: #ffffcc;
    text-decoration: underline;
 }
+li {
+ -    display: inline;
+ -}
