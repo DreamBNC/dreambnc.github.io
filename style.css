@@ -51,11 +51,11 @@ body {
    text-decoration: underline;
 }
 #navbar {
-   background: linear-gradient(to right, #446688, #335566, #446688);
+   background: linear-gradient(to right, #71C671, #228B22, #8FBC8F);
    color: #aaddff;
 }
 #navbar a {
-   color: #228B22;
+   color: #cce8ff;
    text-decoration: none;
 }
 #navbar a:hover {
