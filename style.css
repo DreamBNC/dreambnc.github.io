@@ -50,6 +50,18 @@ body {
    color: #cce8ff;
    text-decoration: underline;
 }
+#navbar {
+   background: linear-gradient(to right, #446688, #335566, #446688);
+   color: #aaddff;
+}
+#navbar a {
+   color: #cce8ff;
+   text-decoration: none;
+}
+#navbar a:hover {
+   color: #cce8ff;
+   text-decoration: underline;
+}
 .content {
    text-align: left;
    margin-left: 20%;
