@@ -68,10 +68,17 @@ body {
    color: #ffffcc;
    text-decoration: underline;
 }
-.button {
- display: block;
- height: 100px;
- width: 300px;
- background: #308014;
- border: 2px solid rgba(33, 68, 72, 0.59);
+li a {
+    display: block;
+    width: 60px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+} 
+
+li a {
+    display: block;
 }
