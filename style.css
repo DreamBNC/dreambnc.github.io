@@ -1,81 +1,95 @@
 @font-face {
-   font-family: sansaction;
-   src: url(sansation_light.woff);
+	font-family: sansaction;
+	src: url(sansation_light.woff);
 }
 body {
-   font-family: sansaction;
-   text-align: center;
-   margin: 0px;
-   background: #aaffaa;
-   color: #224422;
+	font-family: sansaction;
+	text-align: center;
+	margin: 0px;
+	background: #aaffaa;
+	color: #224422;
 }
 #header {
-   text-align: center;
-   background: linear-gradient(black, green, #aaffaa);
-   background-repeat: no-repeat;
+	text-align: center;
+	background: linear-gradient(black, green, #aaffaa);
+	background-repeat: no-repeat;
 }
 #main {
-   background: linear-gradient(to right, #447744, #224422, #447744);
-   color: #aaffaa;
+	background: linear-gradient(to right, #447744, #224422, #447744);
+	color: #aaffaa;
 }
 #main a {
-   color: #ccffcc;
-   text-decoration: none;
+	color: #ccffcc;
+	text-decoration: none;
 }
 #main a:hover {
-   color: #ccffcc;
-   text-decoration: underline;
+	color: #ccffcc;
+	text-decoration: underline;
 }
 #github {
-   background: linear-gradient(to right, #774477, #442244, #774477);
-   color: #ffaaff;
+	background: linear-gradient(to right, #774477, #442244, #774477);
+	color: #ffaaff;
 }
 #github a {
-   color: #ffccff;
-   text-decoration: none;
+	color: #ffccff;
+	text-decoration: none;
 }
 #github a:hover {
-   color: #ffccff;
-   text-decoration: underline;
+	color: #ffccff;
+	text-decoration: underline;
 }
 #twitter {
-   background: linear-gradient(to right, #446688, #335566, #446688);
-   color: #aaddff;
+	background: linear-gradient(to right, #446688, #335566, #446688);
+	color: #aaddff;
 }
 #twitter a {
-   color: #cce8ff;
-   text-decoration: none;
+	color: #cce8ff;
+	text-decoration: none;
 }
 #twitter a:hover {
-   color: #cce8ff;
-   text-decoration: underline;
+	color: #cce8ff;
+	text-decoration: underline;
 }
 #navbar {
-   background: linear-gradient(to right, #71C671, #228B22, #8FBC8F);
-   color: #aaddff;
+	background: linear-gradient(to right, #71C671, #228B22, #8FBC8F);
+	color: #cce8ff;
 }
 #navbar a {
-   color: #cce8ff;
-   text-decoration: none;
+	text-decoration: none;
+	color: #cce8ff;
+	padding: 8px;
+}
+#navbar li {
+	display: inline-block;
+	padding: 8px;
 }
 #navbar a:hover {
-   color: #cce8ff;
-   text-decoration: underline;
+	background-color: rgba(204, 232, 255, 0.5);
+	color: #228B22;
+	border-radius: 4px;
+}
+#navbar a:active {
+	background-color: rgba(172, 200, 223, 0.5);
+}
+#current a, #current a:hover, #current a:active {
+	background-color: #cce8ff;
+	color: #228B22;
+	border-radius: 4px;
 }
 .content {
-   text-align: left;
-   margin-left: 20%;
-   margin-right: 20%
+	text-align: left;
+	margin-left: 20%;
+	margin-right: 20%
 }
 #request {
-   background: linear-gradient(to right, #777744, #444422, #777744);
-   color: #ffffaa;
+	background: linear-gradient(to right, #777744, #444422, #777744);
+	color: #ffffaa;
 }
 #request a {
-   color: #ffffcc;
-   text-decoration: none;
+	color: #ffffcc;
+	text-decoration: none;
 }
 #request a:hover {
-   color: #ffffcc;
-   text-decoration: underline;
+	color: #ffffcc;
+	text-decoration: underline;
 }
