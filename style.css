@@ -14,6 +14,11 @@ body {
 	background: linear-gradient(black, green, #aaffaa);
 	background-repeat: no-repeat;
 }
+#header img {
+	min-width: 100px;
+	max-width: 600px;
+	width: 100%;
+}
 #main {
 	background: linear-gradient(to right, #447744, #224422, #447744);
 	color: #aaffaa;
