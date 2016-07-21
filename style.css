@@ -98,3 +98,7 @@ body {
 	color: #ffffcc;
 	text-decoration: underline;
 }
+script {
+    display: none;
+    color: #659D32;
+}
